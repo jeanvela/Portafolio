@@ -1,0 +1,49 @@
+.section {
+    width: 100%;
+    max-width: 1400px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 250px;
+}
+
+.head {
+    font-weight: 700;
+}
+
+.container_img {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_about {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2_about {
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.parrafo_about {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
