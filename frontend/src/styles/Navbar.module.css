@@ -1,0 +1,31 @@
+.header {
+    background: #14213d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* .navbar {
+    max-width: 1400px;
+
+} */
+
+.navbar_ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.ul_li {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
