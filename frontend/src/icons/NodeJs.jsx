@@ -2,7 +2,7 @@ import React from "react";
 
 const NodeJs = () => {
     return (
-        <svg width="2500" height="1533" viewBox="0 0 512 314" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+        <svg width="110" height="100" viewBox="0 0 512 314" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
             <defs>
                 <linearGradient x1="68.188%" y1="17.487%" x2="27.823%" y2="89.755%" id="b"><stop stop-color="#41873F" offset="0%"/>
                     <stop stop-color="#418B3D" offset="32.88%"/>

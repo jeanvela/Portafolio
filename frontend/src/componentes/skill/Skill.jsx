@@ -10,13 +10,14 @@ import Mongoose from "../../icons/Mongoose";
 import Redux from "../../icons/Redux";
 import TailwindCss from "../../icons/TailwindCss";
 import PostgreSql from "../../icons/PostgreSql";
+import style from "../../styles/Skill.module.css"
 
 const Skill = () => {
     return (
-        <section>
-            <div>
-                <h2>SKILL</h2>
-                <div>
+        <section className={style.section}>
+            <div className={style.container}>
+                <h2 className={style.h2}>SKILL</h2>
+                <div className={style.container_skill}>
                     <ReactJs/>
                     <JavaScript/>
                     <Html/>
