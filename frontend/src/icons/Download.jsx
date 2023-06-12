@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Download = ({ size = 46, color = "currentColor", ...props }) => (
+const Download = ({ size = 26, color = "currentColor", ...props }) => (
   <svg
     width={size}
     height={size}
