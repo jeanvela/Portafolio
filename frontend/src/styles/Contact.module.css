@@ -1,0 +1,27 @@
+.section {
+    width: 100%;
+    max-width: 1400px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.container_contac {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
