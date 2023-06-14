@@ -18,7 +18,7 @@ const Home  = () => {
                 </div>
                 <div className={style.container_btns}>
                     <button className={style.btn}>Descargar CV <Download/></button>
-                    <button className={style.btn}>Contáctame</button>
+                    <button className={style.btn}><a href="#Contact">Contáctame</a></button>
                 </div>
             </section>
             <About></About>
