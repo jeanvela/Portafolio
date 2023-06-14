@@ -6,7 +6,7 @@ import Gmail from "../../icons/Gmail";
 
 const Contac = () => {
     return (
-        <section className={style.section}>
+        <section className={style.section} id="Contact">
             <div className={style.container}>
                 <h2 className={style.h2}>CONTAC</h2>
                 <div className={style.container_contac}>

@@ -9,7 +9,7 @@ import Download from "../../icons/Download";
 const Home  = () => {
     return (
         <main className={style.main}>
-            <section className={style.section}>
+            <section className={style.section} id="Home">
                 <div className={style.container}>
                     <span className={style.span}>Hola 👋, soy</span>
                     <h1 className={style.h1_name}>Jean Pierre</h1>

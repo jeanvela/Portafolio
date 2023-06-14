@@ -7,11 +7,11 @@ const Navbar = () => {
             <span className={style.span}>Jean Pierre</span>
             <nav className={style.navbar}>
                 <ul className={style.navbar_ul}>
-                    <li className={style.ul_li}>Home</li>
-                    <li className={style.ul_li}>About</li>
-                    <li className={style.ul_li}>Skill</li>
-                    <li className={style.ul_li}>Proyects</li>
-                    <li className={style.ul_li}>Contact</li>
+                    <li className={style.ul_li}><a href="#Home">Home</a></li>
+                    <li className={style.ul_li}><a href="#About">About</a></li>
+                    <li className={style.ul_li}><a href="#Skill">Skill</a></li>
+                    <li className={style.ul_li}><a href="#Proyects">Proyects</a></li>
+                    <li className={style.ul_li}><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
