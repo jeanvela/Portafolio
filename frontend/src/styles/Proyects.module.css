@@ -26,6 +26,7 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    width: 80%;
 }
 
 .proyects {
@@ -34,7 +35,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 25%;
+    width: 45%;
 }
 
 .name_proyect {
@@ -45,4 +46,14 @@
 .description {
     font-size: 16px;
     font-weight: 600;
+}
+
+@media (max-width: 670px) {
+    .h2 {
+        font-size: 2.3rem;
+    }
+
+    .proyects {
+        width: 90%;
+    }
 }

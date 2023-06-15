@@ -18,7 +18,7 @@ const Contac = () => {
                     </div>
                     <div className={style.contacs}>
                         <a><Gmail/></a>
-                        <span>alejandrovelaarana@gmail.com</span>
+                        <span className={style.correo}>alejandrovelaarana@gmail.com</span>
                     </div>                  
                 </div>
             </div>

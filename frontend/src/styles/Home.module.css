@@ -44,8 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .btn {
@@ -65,4 +64,28 @@
 
 a {
     color: #fff;
+}
+
+@media (max-width: 670px) {
+    .parrafo {
+        font-size: 16px;
+        width: 80%;
+    }
+    .span {
+        font-size: 16px;
+    }
+
+    .h1_name, .h2_name {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container_btns {
+        flex-direction: column;
+    }
 }
