@@ -27,6 +27,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(171, 178, 185, 0.5);
 }
 
 @media (max-width: 670px) {

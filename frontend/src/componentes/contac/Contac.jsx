@@ -11,7 +11,7 @@ const Contac = () => {
                 <h2 className={style.h2}>CONTAC</h2>
                 <div className={style.container_contac}>
                     <div className={style.contacs}>
-                        <a href="" target="_blank"><Linkdln/></a>
+                        <a href="https://www.linkedin.com/in/jean-pierre-vela-arana-78a571253/" target="_blank"><Linkdln/></a>
                     </div>
                     <div className={style.contacs}>
                         <a href="https://github.com/jeanvela" target="_blank"a><Github/></a>

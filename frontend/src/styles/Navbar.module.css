@@ -36,7 +36,7 @@
 
 .a {
     color: #ffffff;
-    margin: 0 1rem;
+    margin: 0 0.3rem;
     position: relative;
 }
 
@@ -56,4 +56,10 @@
 .a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media (max-width: 890px) {
+    .navbar {
+        display: none;
+    }
 }

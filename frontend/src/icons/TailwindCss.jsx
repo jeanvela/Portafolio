@@ -2,7 +2,7 @@ import React from "react";
 
 const TailwindCss = () => {
     return (
-        <svg height="70" viewBox="0 0 63.8 22.1" width="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg height="80" viewBox="0 0 63.8 22.1" width="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <linearGradient id="a">
                 <stop offset="0" stop-color="#45a9b3"/>
                 <stop offset=".389" stop-color="#3faeb0"/>

@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../../styles/Navbar.module.css"
+import MenuToggle from "../../menutoggle/MenuToggle";
 
 const Navbar = () => {
     return (
@@ -14,6 +15,7 @@ const Navbar = () => {
                     <li className={style.ul_li}><a className={style.a} href="#Contact">Contact</a></li>
                 </ul>
             </nav>
+            <MenuToggle/>
         </header>
     )
 }
