@@ -5,6 +5,7 @@ import Proyects from "../proyects/Proyects"
 import Contac from "../contac/Contac";
 import style from "../../styles/Home.module.css"
 import Download from "../../icons/Download";
+import filePDf from "../../../public/Profile.pdf"
 
 const Home  = () => {
     return (
@@ -17,7 +18,7 @@ const Home  = () => {
                     <p className={style.parrafo}>Desarrollador Full Stack, apasionado por el desarrollo Back-End y Front-End.</p>
                 </div>
                 <div className={style.container_btns}>
-                    <button className={style.btn}>Descargar CV <Download/></button>
+                    <a href={filePDf} download><button className={style.btn} >Descargar CV <Download/></button></a>
                     <a href="#Contact"><button className={style.btn}>Contáctame</button></a>
                 </div>
             </section>
