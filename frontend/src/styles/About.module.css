@@ -12,7 +12,9 @@
 }
 
 .img {
-    width: 250px;
+    width: 300px;
+    border-radius: 50%;
+    border: #fff 3px solid;
 }
 
 .head {
@@ -74,6 +76,12 @@
 
     .h2_about {
         font-size: 1.6em;
+    }
+}
+
+@media (max-width: 470px) {
+    .img {
+        width: 250px;
     }
 }
 

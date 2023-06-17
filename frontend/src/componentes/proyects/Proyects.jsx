@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../../styles/Proyects.module.css"
+import TheCleanPlate from "../../img/the-clean-plate.png"
 
 const Proyects = () => {
     return (
@@ -8,9 +9,11 @@ const Proyects = () => {
                 <h2 className={style.h2}>PROYECTS</h2>
                 <div className={style.container_proyects}>
                     <div className={style.proyects}>
-                        <a className={style.links} href="https://frontend-pf-seven.vercel.app/" target="_blank"><img src="https://pm1.aminoapps.com/6810/24eb654157df51fc42d1b50e203d8aaf75250e8cv2_hq.jpg" alt="the_clean_plate" width="250px"/></a>
+                        <a className={style.links} href="https://frontend-pf-seven.vercel.app/" target="_blank"><img className={style.img} src={TheCleanPlate} alt="the_clean_plate"/></a>
                         <span className={style.name_proyect}>The clean plate</span>
-                        <p className={style.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur soluta tenetur fugiat veniam quia, libero similique tempore iure quae ratione cupiditate placeat dolorem facere quos doloremque quam at repellendus magni!</p>
+                        <p className={style.description}>
+                            E-commerce de ventas de productos saludables, aplicando pasarela de pagos, autenticacion de terceros, dashboard, borrado logico, cloudinary, notificaciones (mail), reviews/puntuacion y local storage
+                        </p>
                     </div>
                 </div>
             </div>

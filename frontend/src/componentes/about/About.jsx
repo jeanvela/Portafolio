@@ -1,12 +1,13 @@
 import React from "react";
 import style from "../../styles/About.module.css"
+import Yo from "../../img/yo.jpg"
 
 const About = () => {
     return (
         <section className={style.section} id="About">
             <div className={style.container}>
                 <div className={style.container_img}>
-                    <img className={style.img} src="https://img.wattpad.com/25bb73da534ef81e284a6a3b488dc06c41f23b11/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f72627036465866576765753134513d3d2d3938313132373030332e313634373364333831653339356238383130343836373733323937322e6a7067" alt="polar" />
+                    <img className={style.img} src={Yo} alt="polar" />
                     <span className={style.head}>Desarrollador Full Stack || Front-End || Back-End</span>
                 </div>
                 <div className={style.container_about}>

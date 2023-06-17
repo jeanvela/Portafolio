@@ -1,5 +1,6 @@
+/* 161a1d */
 .header {
-    background: #14213d;
+    background: linear-gradient(31deg, rgba(33,28,28,1) 11%, rgba(52,39,42,1) 79%);;
     display: flex;
     justify-content: space-around;
     align-items: center;

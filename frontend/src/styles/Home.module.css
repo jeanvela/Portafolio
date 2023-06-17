@@ -60,6 +60,8 @@
     align-items: center;
     justify-content: center;
     height: 50px;
+    border: #000 solid 1px;
+    box-shadow:  6px 6px 5px #240046;
 }
 
 a {
